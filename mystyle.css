@@ -74,6 +74,7 @@ body {
     max-width: 1200px;
     border-radius: 15px;
     box-shadow: 0 4px 10px;
+    width: 100%
 }
 .title {
     font-size: 32px;
@@ -147,7 +148,7 @@ h1 {
     gap: 20px;
 }
 .type{
-    width: 280px;
+    width: 500px;
     padding: 5px 100px;
     background-color: rgb(229, 242, 255);
     border-radius: 12px;
@@ -181,22 +182,12 @@ h1 {
     margin-bottom: 10px; 
     object-fit: cover; 
 }
-.Game oi {
+.Game ul {
     font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
     text-align: left;
     padding: 3px;
-}
-.price {
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 10px;
-    display: inline-block;
-    color: rgb(255, 255, 255);
-    background-color: green;
-    border-radius: 15px;
-    padding: 8px 15px;
 }
 .Contact{
     display: flex;
