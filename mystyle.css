@@ -1,1 +1,228 @@
 
+body {
+    background-color: rgba(255, 255, 255, 0.753);
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    background-color: rgb(127, 115, 240);
+    box-shadow: 0 4px 10px;
+    position: sticky;
+}
+.box .star {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box img {
+    width: 40px;
+    height: auto;
+}
+
+.box .Search {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.box .Search input {
+    width: 70%;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+.box .menuONSearch {
+    font-size: 18px;
+    color: rgb(233, 97, 0);
+    gap: 5px;
+    padding: 8px 12px;
+    font-weight: bold;
+}
+.box .CategoryONSearch{
+    font-size: 18px;
+    color: rgb(233, 97, 0);
+    gap: 5px;
+    padding: 8px 12px;
+    font-weight: bold;
+}
+
+.box .contactONSearch {
+    font-size: 18px;
+    color: rgb(233, 97, 0);
+    gap: 5px;
+    padding: 8px 12px;
+    font-weight: bold;
+}
+.AboutMe {
+    background-color: rgb(229, 242, 255);
+    padding: 20px;
+    border: 1px solid;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    margin: 30px auto;
+    gap: 20px;
+    max-width: 1200px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px;
+}
+.title {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.textWho p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.video video{
+    width: 500px;
+    border-radius: 20px;
+}
+.homegame  img{
+    width: 500px;
+    justify-self: center;
+}
+.Gamecamp {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.Gamecamp div{
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgb(229, 242, 255);
+    box-shadow: 0 4px 10px;
+}
+h2{
+    color: #d33232;
+}
+h1 {
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+.Nintendo img{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+.PLAYSTATION img{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+.XBOX img{
+    justify-content: center;
+    height: 200px;
+}
+.Category {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.Recommend {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.type{
+    width: 280px;
+    padding: 5px 100px;
+    background-color: rgb(229, 242, 255);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px;
+    text-align: center;
+}
+.type  h3 {
+    font-size: 28px;
+    font-weight: bold;
+
+}
+.type img{
+    height: 150px;
+    margin: 15px 0;
+}
+.Game {
+    display: flex;
+    width: 220px;
+    padding: 15px;
+    background-color: rgb(229, 242, 255);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Game img {
+    width: 100%;
+    height: 350px;
+    border-radius: 8px;
+    margin-bottom: 10px; 
+    object-fit: cover; 
+}
+.Game oi {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+    padding: 3px;
+}
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background-color: green;
+    border-radius: 15px;
+    padding: 8px 15px;
+}
+.Contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: rgb(229, 242, 255);
+    box-shadow: 0 4px 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+.Contactofme p {
+    font-size: 50px;
+    gap: 5px
+}
+.Contactofme oi {
+    text-align: left;
+    font-size: 20px;
+}
+.name p {
+    font-size: 50px;
+}
+.name span {
+    font-size: 20px;
+    
+}
+.MidustShop p {
+    font-size: 50px;
+    gap: 5px
+}
