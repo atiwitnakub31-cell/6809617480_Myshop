@@ -221,3 +221,14 @@ a:link {
   background-color: transparent;
   text-decoration: none;
 }
+h3 {
+    padding: 10px 20px
+}
+ul.card-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0;
+    list-style: none;
+}
